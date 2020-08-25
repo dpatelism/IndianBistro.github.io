@@ -1,0 +1,50 @@
+body{
+    height: 100%;
+}
+
+video{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -50%;
+    margin-left: -50%;
+    z-index: 1;
+}
+
+div{
+    position: relative;
+    z-index: 2;
+    margin: 0 auto;
+    max-width:720px;
+    margin-top: 100px;
+    text-align: center;
+}
+
+h1{
+    margin-bottom: 25px;
+    font-family: 'Lobster', cursive;
+    color:#66FFCC;
+    font-size: 44px;
+    opacity: 0.8;
+}
+
+p{
+    color: black;
+    background-color: whitesmoke;
+    font-family: 'Pacifico', cursive;
+    opacity:0.8;
+}
+
+button{
+    display: inline-block;
+    padding: 12px 48px;
+    border: solid 4px;
+    font-size: 21px;
+}
+
+button2{
+    display: inline-block;
+    padding: 12px 48px;
+    border: solid 4px;
+    font-size: 21px;
+}
